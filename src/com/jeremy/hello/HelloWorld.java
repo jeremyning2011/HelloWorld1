@@ -5,10 +5,15 @@ import java.util.ArrayList;
 public class HelloWorld {
 
 
+    public HelloWorld() {
+    }
+
     public static void main(String[] args)
     {
         System.out.println("Hello World?");
         System.out.println("Hello!!");
+
+
 
         String[] arr = new String[]{"Tom","Jerry","HanMeiMei","LiLei"};
         for (int i = 0; i < arr.length; i++) {
@@ -24,6 +29,8 @@ public class HelloWorld {
         mylist.add(2);
         mylist.add(3);
         mylist.add(4);
+
+        //TODO 增加注释
 
         if (mylist == null) {
             System.out.println(mylist.get(1));

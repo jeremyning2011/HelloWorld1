@@ -8,20 +8,30 @@ import java.util.HashMap;
  */
 public class DebugTest {
     public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            System.out.println(i);
+        try {
+            for (int i = 0; i < 100; i++) {
+                System.out.println(i);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
-        HashMap<String,String> testMap = new HashMap<>();
-        testMap.put("name","Tom");
-        testMap.put("age","22");
-        testMap.put("school","Tsinghua");
-        testMap.put("major","computer");
+        //TODO 进行调试
+        HashMap<String,String> testmap = new HashMap<>();
+        testmap.put("name","Tom");
+        testmap.put("age","22");
+        testmap.put("school","Tsinghua");
+        testmap.put("major","computer");
 
-        String age = testMap.get("age");
-        System.out.println("age = " + age);
+        if (testmap.get("age") != null) {
+            String age = testmap.get("age");
+            System.out.println("age = " + age);
+        } else {
+            //nothing to do!
+        }
 
-        testMap.remove("major");
-        System.out.println(testMap);
+
+        testmap.remove("major");
+        System.out.println(testmap);
     }
 }

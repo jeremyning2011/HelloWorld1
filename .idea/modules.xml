@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven1demo/maven1demo.iml" filepath="$PROJECT_DIR$/maven1demo/maven1demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavendemo/mavendemo.iml" filepath="$PROJECT_DIR$/mavendemo/mavendemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvaven2demo/mvaven2demo.iml" filepath="$PROJECT_DIR$/mvaven2demo/mvaven2demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/staticWeb/staticWeb.iml" filepath="$PROJECT_DIR$/staticWeb/staticWeb.iml" />
     </modules>
   </component>
